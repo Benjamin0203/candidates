@@ -49,9 +49,9 @@ def ordered_by_qualifications(candidates)
 end
 
 #or use do method
-def ordered_by_qualifications(candidates)
-  Your code Here
-  candidates.sort_by do |candidate|
-    [-candidate[:years_of_experience], -candidate[:github_points]]
-  end
-end
+# def ordered_by_qualifications(candidates)
+#   Your code Here
+#   candidates.sort_by do |candidate|
+#     [-candidate[:years_of_experience], -candidate[:github_points]]
+#   end
+# end
